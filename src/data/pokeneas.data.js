@@ -8,7 +8,7 @@ module.exports = [
     altura: 1.7,
     habilidad: "Mar llamas (Blaze)",
     imagen: `${BUCKET_URL}/charizard.png`,
-    fraseFilosofica: "El que tenga miedo a quemarse, que no prenda la candela, mi so."
+    fraseFilosofica: "Un gran poder conlleva una gran responsabilidad."
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ module.exports = [
     altura: 0.4,
     habilidad: "Electricidad estática (Static)",
     imagen: `${BUCKET_URL}/pikachu.jfif`,
-    fraseFilosofica: "La chispa de la vida no se apaga con agüita de río, parcero."
+    fraseFilosofica: "No son nuestras habilidades las que muestran lo que realmente somos, son nuestras elecciones."
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ module.exports = [
     altura: 1.0,
     habilidad: "Gran encanto (Cute Charm)",
     imagen: `${BUCKET_URL}/sylveon.jfif`,
-    fraseFilosofica: "Mucho lazo fino pa' amarrar tempestades, llave."
+    fraseFilosofica: "En los momentos más oscuros, la esperanza es algo que uno se da a sí mismo. Ese es el significado de la fuerza interior."
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ module.exports = [
     altura: 2.0,
     habilidad: "Presión (Pressure)",
     imagen: `${BUCKET_URL}/mewtwo.jfif`,
-    fraseFilosofica: "Las circunstancias en que uno nace no importan, sino qué hace uno con la oportunidad de estar vivo."
+    fraseFilosofica: "El fracaso no es más que una oportunidad para volver a empezar. Solo que esta vez, con más sensatez."
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ module.exports = [
     altura: 0.3,
     habilidad: "Electricidad estática (Static)",
     imagen: `${BUCKET_URL}/Pichu.webp`,
-    fraseFilosofica: "Chiquito pero peligroso, pa' que aprenda a respetar a los menores."
+    fraseFilosofica: "El verdadero poder no radica en la fuerza bruta, sino en la voluntad de proteger a quienes amas."
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ module.exports = [
     altura: 0.3,
     habilidad: "Dicha (Serene Grace)",
     imagen: `${BUCKET_URL}/jirachi.jfif`,
-    fraseFilosofica: "No pida deseos sentado; camine a buscarlos que la suerte trasnocha."
+    fraseFilosofica: "¿Estás preocupado por lo que fue? ¿Y lo que va a ser? Hay un dicho. El ayer es historia, el mañana es un misterio, pero el hoy es un obsequio; por eso se llama presente"
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ module.exports = [
     altura: 0.5,
     habilidad: "Gran encanto (Cute Charm)",
     imagen: `${BUCKET_URL}/JJigglypuff.png`,
-    fraseFilosofica: "El que se duerme en los laureles amanece rayado en la esquina."
+    fraseFilosofica: "Recuerda, en nuestra vida nosotros no somos lectores, sino escritores."
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ module.exports = [
     altura: 2.5,
     habilidad: "Absorbe agua (Water Absorb)",
     imagen: `${BUCKET_URL}/lapras.png`,
-    fraseFilosofica: "Navegar con la frente en alto, que las mareas bravas no tumban al que sabe flotar."
+    fraseFilosofica: "Si no puedes hacer algo, no lo hagas."
   },
   {
     id: 9,
@@ -72,6 +72,6 @@ module.exports = [
     altura: 1.5,
     habilidad: "Torrente (Torrent)",
     imagen: `${BUCKET_URL}/greninja.jfif`,
-    fraseFilosofica: "Moverse en silencio para que los pasos hablen cuando el golpe sea certero."
+    fraseFilosofica: "Incluso si fueses a desviarte del camino correcto, nunca te desvíes de lo que ha decidido tu corazón."
   }
 ];
