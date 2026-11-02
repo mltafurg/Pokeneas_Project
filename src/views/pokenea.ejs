@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokenea - <%= nombre %></title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      margin: 0;
+      padding: 30px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 90vh;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 420px;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .container-badge {
+      background-color: #0d6efd;
+      color: #ffffff;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      display: inline-block;
+      word-break: break-all;
+    }
+
+    h1 {
+      margin: 10px 0 15px 0;
+      font-size: 1.8rem;
+      color: #212529;
+    }
+
+    .img-container {
+      margin: 15px auto;
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      padding: 15px;
+      min-height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pokenea-img {
+      max-width: 100%;
+      max-height: 200px;
+      object-fit: contain;
+    }
+
+    .quote-box {
+      background-color: #fff3cd;
+      border-left: 4px solid #ffc107;
+      color: #856404;
+      padding: 12px 15px;
+      border-radius: 4px;
+      margin: 20px 0;
+      font-style: italic;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 10px 15px;
+      border-radius: 6px;
+      border: none;
+      font-size: 0.95rem;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: #bb2d3b;
+    }
+
+    .btn-secondary {
+      background-color: #6c757d;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background-color: #5c636a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <!-- ID del Contenedor Docker -->
+    <div class="container-badge">
+      🐳 ID Contenedor: <%= contenedorId %>
+    </div>
+
+    <!-- Nombre del Pokenea -->
+    <h1><%= nombre %></h1>
+
+    <!-- Imagen del Pokenea -->
+    <div class="img-container">
+      <img
+        src="<%= imagen %>"
+        alt="<%= nombre %>"
+        class="pokenea-img"
+        onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png';"
+      />
+    </div>
+
+    <!-- Frase Filosófica -->
+    <div class="quote-box">
+      "<%= fraseFilosofica %>"
+    </div>
+
+    <!-- Acciones -->
+    <div class="buttons">
+      <button class="btn btn-primary" onclick="window.location.reload();">
+        🎲 Otro Pokenea
+      </button>
+      <a href="/api/pokenea/<%= id %>" class="btn btn-secondary">
+        📄 Ver JSON de <%= nombre %>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "pokedex-pokenea",
+  "version": "1.0.0",
+  "description": "API y vista visual de Pokeneas desplegable en Docker y GCP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "pokenea",
+    "express",
+    "docker",
+    "gcp",
+    "docker-swarm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
