@@ -1,10 +1,10 @@
-# ⚡ Pokédex Pokenea (Taller 02 - Arquitectura de Software)
+# Pokédex Pokenea (Taller 02 - Arquitectura de Software)
 
 Aplicación desarrollada en **Node.js** con **Express** y arquitectura en capas para gestionar y visualizar Pokeneas (criaturas nativas de Antioquia). Diseñada para ser empaquetada con **Docker**, publicada en **DockerHub** mediante GitHub Actions y desplegada en un cluster de **Docker Swarm** sobre instancias de **Google Cloud Platform (GCP)**.
 
 ---
 
-## 📁 Arquitectura y Estructura de Capas
+## Arquitectura y Estructura de Capas
 
 ```text
 pokedex-pokenea/
@@ -29,7 +29,7 @@ pokedex-pokenea/
 
 ---
 
-## 🔌 Rutas del Sistema
+## Rutas del Sistema
 
 | Ruta | Método | Tipo | Descripción |
 | :--- | :---: | :---: | :--- |
@@ -38,7 +38,7 @@ pokedex-pokenea/
 
 ---
 
-## 🚀 Ejecución Local
+## Ejecución Local
 
 ### 1. Instalar dependencias
 ```bash
@@ -58,7 +58,7 @@ El servidor estará escuchando en `http://localhost:3000`.
 
 ---
 
-## 🐳 Ejecución con Docker
+## Ejecución con Docker
 
 ### 1. Construir la imagen localmente
 ```bash
@@ -78,7 +78,7 @@ Observa cómo el valor de **Docker Host / Contenedor ID** cambia al identificado
 
 ---
 
-## ☁️ Despliegue en Google Cloud Platform (GCP) & Docker Swarm
+## Despliegue en Google Cloud Platform (GCP) & Docker Swarm
 
 ### Nombres de Archivo para el Bucket de GCP
 Al subir las imágenes a tu bucket público de Google Cloud Storage (`GCP_BUCKET_URL`), asegúrate de nombrarlas de la siguiente manera:
